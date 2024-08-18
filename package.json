@@ -1,5 +1,5 @@
 {
-  "name": "encrypted-storage",
+  "name": "@p1ku99/encrypted-storage",
   "version": "0.1.0",
   "description": "Package to encrypt data in storage, compatible with zustand persist",
   "main": "dist/index.js",
