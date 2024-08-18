@@ -1,9 +1,9 @@
 {
   "name": "@p1ku99/encrypted-storage",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Package to encrypt data in storage, compatible with zustand persist",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "types": "src/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
