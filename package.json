@@ -1,0 +1,41 @@
+{
+  "name": "encrypted-storage",
+  "version": "0.1.0",
+  "description": "Package to encrypt data in storage, compatible with zustand persist",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrancMihani/encrypted-storage.git"
+  },
+  "keywords": [
+    "react",
+    "zustand",
+    "persist",
+    "secure",
+    "encrypted",
+    "storage"
+  ],
+  "author": "Franc Mihani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrancMihani/encrypted-storage/issues"
+  },
+  "homepage": "https://github.com/FrancMihani/encrypted-storage#readme",
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "js-cookie": "^3.0.5",
+    "murmurhash-js": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/js-cookie": "^3.0.6",
+    "@types/murmurhash-js": "^1.0.6",
+    "@types/node": "^22.4.0",
+    "typescript": "^5.5.4"
+  }
+}
